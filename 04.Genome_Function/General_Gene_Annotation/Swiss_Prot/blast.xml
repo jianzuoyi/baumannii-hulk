@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/zuoyi/data/db/uniprot/swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>AbGM000109 locus=Chr1:1:1398:+</BlastOutput_query-def>
+  <BlastOutput_query-len>465</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>AbGM000109 locus=Chr1:1:1398:+</Iteration_query-def>
+  <Iteration_query-len>465</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|B0VAF3|DNAA_ACIBY</Hit_id>
+  <Hit_def>Chromosomal replication initiator protein DnaA OS=Acinetobacter baumannii (strain AYE) GN=dnaA PE=3 SV=1</Hit_def>
+  <Hit_accession>B0VAF3</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>952.97</Hsp_bit-score>
+      <Hsp_score>2462</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>465</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>465</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>MLWTDCLTRLRQELSDNVFAMWIRPLVAEEVEGILRLYAPNPYWTRYIQENHLELISILAEQLSEGRVRQVEILVDSRPGSILSSSEQPATTTAALQTAPIPQPAKVKREPEPVANTAVSSKSSKKKLLNPQFTFSLFVEGRSNQMAAETCRKVLTQLGASQHNPLFLYGPTGLGKTHLMQAVGNALLQAKPNARVMYMTSESFVQDFVSSLQKGKVEEFKKNCRSLDLLLVDDIHLLAGKEASLVEFFYTFNALLDESKQIILTSDRYPKELTELDPRLVSRFSWGLSVGVEPPDIETRIEILLKKAENSGVDLPRNCALFIAQQVVANVRELEGALNKVVAISRFKGAPIDLDVVRESLKDVLAIRARTISVENIQRVVSEYFRIPLKELVGPKRTRIYARPRQLAMGLARELTGDSFPEIGMAFGGRDHSTVMHACEKVVSLREEDPIFDEDYKNLLRLLQS</Hsp_qseq>
+      <Hsp_hseq>MLWTDCLTRLRQELSDNVFAMWIRPLVAEEVEGILRLYAPNPYWTRYIQENHLELISILAEQLSEGRVRQVEILVDSRPGSILSSSEQPATTTAALQTAPIPQPAKVKREPEPVANTAVSSKSSKKKLLNPQFTFSLFVEGRSNQMAAETCRKVLTQLGASQHNPLFLYGPTGLGKTHLMQAVGNALLQAKPNARVMYMTSESFVQDFVSSLQKGKVEEFKKNCRSLDLLLVDDIHLLAGKEASLVEFFYTFNALLDESKQIILTSDRYPKELTELDPRLVSRFSWGLSVGVEPPDIETRIEILLKKAENSGVDLPRNCALFIAQQVVANVRELEGALNKVVAISRFKGAPIDLDVVRESLKDVLAIRARTISVENIQRVVSEYFRIPLKELVGPKRTRIYARPRQLAMGLARELTGDSFPEIGMAFGGRDHSTVMHACEKVVSLREEDPIFDEDYKNLLRLLQS</Hsp_hseq>
+      <Hsp_midline>MLWTDCLTRLRQELSDNVFAMWIRPLVAEEVEGILRLYAPNPYWTRYIQENHLELISILAEQLSEGRVRQVEILVDSRPGSILSSSEQPATTTAALQTAPIPQPAKVKREPEPVANTAVSSKSSKKKLLNPQFTFSLFVEGRSNQMAAETCRKVLTQLGASQHNPLFLYGPTGLGKTHLMQAVGNALLQAKPNARVMYMTSESFVQDFVSSLQKGKVEEFKKNCRSLDLLLVDDIHLLAGKEASLVEFFYTFNALLDESKQIILTSDRYPKELTELDPRLVSRFSWGLSVGVEPPDIETRIEILLKKAENSGVDLPRNCALFIAQQVVANVRELEGALNKVVAISRFKGAPIDLDVVRESLKDVLAIRARTISVENIQRVVSEYFRIPLKELVGPKRTRIYARPRQLAMGLARELTGDSFPEIGMAFGGRDHSTVMHACEKVVSLREEDPIFDEDYKNLLRLLQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>552259</Statistics_db-num>
+      <Statistics_db-len>197423140</Statistics_db-len>
+      <Statistics_hsp-len>121</Statistics_hsp-len>
+      <Statistics_eff-space>44926331544</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>AbGM000110 locus=Chr1:1496:2644:+</Iteration_query-def>
+  <Iteration_query-len>382</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P0A121|DPO3B_PSEPU</Hit_id>
+  <Hit_def>DNA polymerase III subunit beta OS=Pseudomonas putida GN=dnaN PE=3 SV=1</Hit_def>
+  <Hit_accession>P0A121</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>4.20332e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>VRLKIAKESLLNVLSHVVGAVERRHTLNILSNVKIQTNAQALTITGSDLEVELVASTALSEGACLEAGETTVPARKLMEICKSLPTAALIDLQITEDQRCILKSGNSRFVLGTLPAEDYPLLTTENSQGT-QVQVTQRELKRLFEKTAFAMAVQDVRFYLTGTLLEIDENQLRAVTTDGHRLALCEILASSTSSQLVQAIVPRKAVGELQRLLSIEDEQLTLLIGRELLNVTINTPSRDKEQGDITVRFTTKLIDGKFPDYRRVIPRGGDKHVLIGHDVFKQSLQRVAILSNEKLRGVFLNFNQDSLQLRANNPEQDEAIEDLAIQYQNAPLEMSFNAQYLLDVLGVLDGDDVNMSMTEANQSVLVQDPAHPDQTYVVMPMRV</Hsp_qseq>
+      <Hsp_hseq>MHFTIQREALLKPLQLVAGVVERRQTLPVLSNVLLVVQGQQLSLTGTDLEVELVGRVQLEEPA--EPGEITVPARKLMDICKSLPNDALIDIKVDE-QKLLVKAGRSRFTLSTLPANDFP--TVEEGPGSLTCNLEQSKLRRLIERTSFAMAQQDVRYYLNGMLLEVSRNTLRAVSTDGHRLALCSMSAPIEQEDRHQVIVPRKGILELARLLTDPEGMVSIVLGQHHIRATT---------GEFT--FTSKLVDGKFPDYERVLPKGGDKLVVGDRQALREAFSRTAILSNEKYRGIRLQLAAGQLKIQANNPEQEEAEEEISVDYEGSSLEIGFNVSYLLDVLGVMTTEQVRLILSDSNSSALLQEAGNDDSSYVVMPMRL</Hsp_hseq>
+      <Hsp_midline>+   I +E+LL  L  V G VERR TL +LSNV +    Q L++TG+DLEVELV    L E A  E GE TVPARKLM+ICKSLP  ALID+++ E Q+ ++K+G SRF L TLPA D+P  T E   G+    + Q +L+RL E+T+FAMA QDVR+YL G LLE+  N LRAV+TDGHRLALC + A        Q IVPRK + EL RLL+  +  +++++G+  +  T          G+ T  FT+KL+DGKFPDY RV+P+GGDK V+      +++  R AILSNEK RG+ L      L+++ANNPEQ+EA E++++ Y+ + LE+ FN  YLLDVLGV+  + V + ++++N S L+Q+  + D +YVVMPMR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>552259</Statistics_db-num>
+      <Statistics_db-len>197423140</Statistics_db-len>
+      <Statistics_hsp-len>121</Statistics_hsp-len>
+      <Statistics_eff-space>44926331544</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>AbGM000111 locus=Chr1:2659:3741:+</Iteration_query-def>
+  <Iteration_query-len>360</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|B0VAF5|RECF_ACIBY</Hit_id>
+  <Hit_def>DNA replication and repair protein RecF OS=Acinetobacter baumannii (strain AYE) GN=recF PE=3 SV=1</Hit_def>
+  <Hit_accession>B0VAF5</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.643</Hsp_bit-score>
+      <Hsp_score>1903</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MHLTRLNIERVRNLKTVALHGLQPFNVFYGANGSGKTSILEAIHLLATGRSFRTHIPKNYIQYEADDAIVFAQSATEKIGMQKLASGEQLMKVNGDTVATQGQLAKLLPLQHIDPQSTDIIDHGAKPRRQLLDWLMFHVEPEFYFAWQYYSRALKQRNTLLKTRRNLSLADLEPWNKMLSNYGEILHSQRLSIVEQWNVYFQNDLSQLLPDLEIELEYSPGFHTEQGLMQDLLNQHQKDIERRYTEYGPHRADLRLKTPFGHADDVLSRGQKKLLIIALKLSQIAMLHASNKETVVLLDDLTAELDLTAQQRLIERLSQLGSQVFMTTLDHASVKKHLHDLSISYQLFSVESGQVSLAAP</Hsp_qseq>
+      <Hsp_hseq>MHLTRLNIERVRNLKTVALHGLQPFNVFYGANGSGKTSILEAIHLLATGRSFRTHIPKNYIQYEADDAIVFAQSATEKIGMQKLASGEQLMKVNGDTVATQGQLAKLLPLQHIDPQSTDIIDHGAKPRRQLLDWLMFHVEPEFYFAWQYYSRALKQRNTLLKTRRNLSLADLEPWNKMLSDYGEILHSQRLSIVEQWNVYFQNDLSQLLPDLEIELEYSPGFHTEQGLMQDLLNQHQKDIERRYTEYGPHRADLRLKTPFGHADDVLSRGQKKLLIIALKLSQIAMLHASNKETVVLLDDLTAELDLTAQQRLIERLSQLGSQVFMTTLDHASVKKHLHDLSISYQLFSVESGQVSLAAP</Hsp_hseq>
+      <Hsp_midline>MHLTRLNIERVRNLKTVALHGLQPFNVFYGANGSGKTSILEAIHLLATGRSFRTHIPKNYIQYEADDAIVFAQSATEKIGMQKLASGEQLMKVNGDTVATQGQLAKLLPLQHIDPQSTDIIDHGAKPRRQLLDWLMFHVEPEFYFAWQYYSRALKQRNTLLKTRRNLSLADLEPWNKMLS+YGEILHSQRLSIVEQWNVYFQNDLSQLLPDLEIELEYSPGFHTEQGLMQDLLNQHQKDIERRYTEYGPHRADLRLKTPFGHADDVLSRGQKKLLIIALKLSQIAMLHASNKETVVLLDDLTAELDLTAQQRLIERLSQLGSQVFMTTLDHASVKKHLHDLSISYQLFSVESGQVSLAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>552259</Statistics_db-num>
+      <Statistics_db-len>197423140</Statistics_db-len>
+      <Statistics_hsp-len>121</Statistics_hsp-len>
+      <Statistics_eff-space>44926331544</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
